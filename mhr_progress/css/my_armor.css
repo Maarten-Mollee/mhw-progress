@@ -1,0 +1,55 @@
+.table_content {
+    margin-left: 5px;
+}
+
+.table_content {
+    /* position: fixed; */
+}
+
+td {
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+}
+
+.small{
+    width: 20px;
+}
+
+.small_2 {
+    width: 28px;
+}
+
+.mid{
+    width: 90px;
+}
+
+.long{
+    width: 200px;
+}
+
+table tr td {
+    padding: 2px;
+    font-size: 15px;
+}
+
+.big_plus_field input {
+    cursor: pointer;
+    border-width: 0;
+    background-color: white;
+    font-size: 31.5px;
+    padding: 0 9.295px;
+}
+
+.form_name {
+    width: 80px;
+}
+
+.form_type {
+    width: 46px;
+}
+
+.form_mat {
+    width: 116px;
+}

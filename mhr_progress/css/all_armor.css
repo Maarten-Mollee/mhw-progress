@@ -1,0 +1,159 @@
+table {
+    margin: 50px 0 0 50px;
+}
+
+td {
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    height: 24px;
+}
+
+.square_box {
+    width: 60px;
+    height: 40px;
+    padding: 0;
+}
+
+.last_square_box {
+    width: 76px;
+    height: 40px;
+    padding-left: 2px;
+    position: absolute;
+    background-color: white;
+    text-align: left;
+}
+
+.check_boxes td input {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.small_text {
+    width: 24px;
+}
+
+.small{
+    width: 20px;
+}
+
+.mid{
+    width: 90px;
+}
+
+.long{
+    width: 200px;
+}
+
+.check_color_red {
+    background-color:rgb(179, 59, 59);
+}
+
+.check_color_green {
+    background-color:rgb(29, 124, 58, 0.726);
+}
+
+.check_color_grey {
+    background-color: #595959;
+    color:  #595959;;
+    border-color: black;
+}
+
+.check_color_blue {
+    background-color: rgb(94, 94, 223);
+}
+
+.big_plus_field input {
+    cursor: pointer;
+    border-width: 0;
+    background-color: white;
+    font-size: 82px;
+    padding: 13px 30px;
+}
+
+.edit {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+.delete {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-left: 52px;
+}
+
+.level {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.reset {
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.edit input, .delete input {
+    cursor: pointer;
+    border-width: 0;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 13px 5px 14px 4px;
+}
+
+.delete input {
+    padding: 13px 8px 14px 8px;
+}
+
+.small_div {
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: white;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+/* FOR MY_ARMOR */
+
+.defense{
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.piece_and_armor {
+    text-align: left;
+}
+
+.gear_pieces {
+    text-align: right;
+    padding: 5px;
+    padding-right: 27px;
+
+}
+
+.gear_pieces p {
+    padding-bottom: 4px;
+}
+
+.gear {
+    height: 19px;
+    width: 19px;
+    margin-left: 4px;
+    position: absolute;
+}

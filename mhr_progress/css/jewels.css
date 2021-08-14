@@ -1,0 +1,119 @@
+* {
+    vertical-align: middle;
+}
+
+.jewels_ul {
+    margin: 20px 0 0 20px;
+    column-count: 4;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+li div {
+    height: 26px;;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    height: 22px;
+}
+
+form div {
+    background-color: black;
+}
+
+.div_name {
+    width: 100px;
+    padding-left: 2px;
+}
+
+.div_num {
+    width: 26px;
+    text-align: center;
+    padding-top: 2px
+}
+
+.div_num_big {
+    width: 32px;
+    text-align: center;
+    padding-top: 2px
+}
+
+.form_name {
+    width: 96px;
+}
+
+.form_num {
+    width: 22px;
+}
+
+.div_add {
+    width: 26px;
+    text-align: center;
+}
+
+.words {
+    padding: 0 2px;
+}
+
+.form_add, .plus, .minus {
+    cursor: pointer;
+    border-width: 0;
+    background-color: white;
+    font-size: 14px;
+    font-weight:700;
+    width: 22px;
+}
+
+.color div, .d_color div {
+    background-color: white;
+}
+
+.color_green div, .d_color_green div {
+    background-color:rgb(29, 124, 58, 0.726);
+}
+
+/* FOR DETAILS*/
+
+.detalis_ul {
+    margin: 20px 0 0 20px;
+}
+
+.detalis_table_form {
+    margin: 20px 0 0 20px;
+}
+
+tr {
+    margin-bottom: 4px;
+}
+
+.tr_form {
+    background-color: black;
+}
+
+tr td {
+    height: 26px;;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.form_big {
+    width: 150px;
+}
+
+.form_small {
+    width: 22px;
+}
+
+.div_mat_name {
+    width: 170px;
+    padding: 2px;
+}

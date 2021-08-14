@@ -1,0 +1,25 @@
+
+ul {
+    margin: 20px 0 0 20px;
+    columns: 8;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+.mat, .sum {
+    display: inline-block;
+    border: solid;
+    border-width: 2px;
+    padding: 2px;
+}
+
+.mat {
+    width: 180px;
+}
+
+.sum {
+    width: 32px;
+    text-align: center;
+}

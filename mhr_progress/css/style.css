@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* html{
+    background-color: #8c8c8c;
+} */
+
+hr{
+    background-color: black;
+}
+
+/*HEADER*/
+.navbar {
+    overflow: auto;
+    background-color: rgb(128, 0, 0);
+    width: 100%;
+    display: block;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.inout_form{
+    background-color: transparent;
+    border: none;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 17px;
+    color: white;
+}
+
+.login_text{
+    float: right;
+    margin: 8px 4px;
+}
+
+.admin_dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.admin_dropdown .dropbutton {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navbar a:hover, .inout_form:hover, .admin_dropdown:hover .dropbutton {
+    background-color: #4d0000;
+    color: white;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.admin_dropdown:hover .dropdown {
+    display: block;
+}

@@ -1,0 +1,27 @@
+h1{
+    color: darkred;
+}
+
+.index{
+    text-align: center;
+    font-family: "Arial Black";
+    color: darkred;
+}
+
+.index-search{
+    width: 400px;
+    padding:  3px 5px 3px 5px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 2px;
+}
+
+.index-submit{
+    box-sizing: border-box;
+    background-color: darkred;
+    border: 1px;
+    padding:  3px 5px 3px 5px;
+    border-radius: 4px;
+    color: teal;
+    font-weight: bold;
+    font-size: 14px;
+}
